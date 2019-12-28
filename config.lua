@@ -1,6 +1,6 @@
 RulePath = "/usr/local/openresty/nginx/conf/ngx_lua_waf/wafconf/"
 attacklog = "off"
-logdir = "/usr/local/nginx/logs/hack/"
+logdir = "/usr/local/openresty/nginx/logs/hack/"
 UrlDeny="on"
 Redirect="on"
 CookieMatch="on"
