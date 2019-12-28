@@ -1,4 +1,4 @@
-RulePath = "/usr/local/nginx/conf/waf/wafconf/"
+RulePath = "/usr/local/openresty/lualib/waf/"
 attacklog = "off"
 logdir = "/usr/local/nginx/logs/hack/"
 UrlDeny="on"
