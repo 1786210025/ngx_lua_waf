@@ -14,13 +14,60 @@ hostWhiteList = {"blog.whsir.com","down.whsir.com"}
 CCDeny="off"
 CCrate="100/60"
 html=[[
-<html xmlns="http://www.w3.org/1999/xhtml"><head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title></title>
-<body bgcolor="white">
-<center><h1>503 Service Temporarily Unavailable</h1></center>
-<hr><center>上海若轻1111e1</center>
-</body>
-</html>
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>访问拦截</title>
+        <!-- 框架布局样式 -->
+        <link rel="stylesheet" href="https://imgcache.qq.com/open_proj/proj_qcloud_v2/mc_2014/css/global.css">
+        <!-- 组件样式 -->
+        <link rel="stylesheet" href="https://imgcache.qq.com/open_proj/proj_qcloud_v2/bee/css/bee.css">
+        <link rel="stylesheet" href="https://imgcache.qq.com/open_proj/proj_qcloud_v2/mc_2014/waf/css/waf.css">
+    </head>
+    <body>
+    <!-- container start -->
+    <div id="jsContainer" class="container show-aside" style="top:0;">
+        <!-- main start -->
+        <div class="main">
+            <div class="manage-area">
+                <!-- contain start -->
+                <div class="manage-area-main" style="margin-top: 50px;">
+                    <div class="attack-detail">
+                        <div class="tc-g">
+                            <div class="tc-g-u-1-1">
+                                <div class="waf-empty">
+                                    <div class="console-empty">
+                                        <div class="product-intro-img">
+                                            <svg width="330" height="190">
+                                                <image xlink:href="https://imgcache.qq.com/qcloud/security/dest/html/img/empty-interception.svg" src="https://imgcache.qq.com/qcloud/security/dest/html/img/empty-interception.svg" width="330" height="190" />
+                                            </svg>
+                                        </div>
+                                        <div class="empty-text">
+                                            <div><strong>您的访问不匹配网站管理员设置的安全策略，可能会对网站造成危险，已被管理员设置拦截！</strong></div>
+                                            <div class="product-intro-text" style="text-align: left;margin: 20px;">
+                                                <p>可能原因： 访问中带有不合法的参数</p>
+                                                <p>如何解决：</p>
+                                                <p style="margin-left: 20px">1）如果你认为这是一个正常的访问请求，请联系网站管理员解决此问题。</p>
+                                                <p style="margin-left: 20px">2）如果你是网站管理员，请你调整腾讯云网站管家的策略；前往<a href="https://console.qcloud.com/guanjia/waf/config">腾讯云网站管家控制台</a>。</p>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- contain end -->
+            </div>
+        </div>
+        <!-- main end -->
+    </div>
+    <!-- container end -->
+    </body>
+    </html>
+    
 ]]
 
